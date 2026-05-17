@@ -7,19 +7,23 @@
 
 ## Getting Started
 
-TestMu AI (Formerly LambdaTest) is the world's first fully autonomous Agentic AI Quality Engineering Platform. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations.
+[TestMu AI](https://www.testmuai.com/) (Formerly LambdaTest) is the world's first full-stack AI Agentic Quality Engineering platform that empowers teams to test intelligently, smarter, and ship faster. Built for scale, it offers a full-stack testing cloud with 10K+ real devices and 3,000+ browsers. With AI-native test management, MCP servers, and agent-based automation, TestMu AI supports Selenium, Appium, Playwright, and all major frameworks.
 
-If you want to upload a file to TestMu AI (Formerly LambdaTest) and use it in your Mocha.js automation test, you can follow the below steps. You can refer to sample test repo [here](https://github.com/LambdaTest/Mocha-selenium-sample).
+With TestMu AI (Formerly LambdaTest), you can run Mocha Upload File Tests across real browsers and operating systems.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
 - Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/) for the full setup walkthrough.
+
+### Prerequisites
+
+- Node.js and npm (latest stable)
+- A TestMu AI (Formerly LambdaTest) account with your username and access key
 
 # Steps:
 
 ### Step 1: Upload the file to TestMu AI (Formerly LambdaTest) using API
 
 Use the file upload API to upload the file to the backend.
-
 
 ### Step 2: Pass file in capabilities
 
@@ -40,7 +44,6 @@ exports.capabilities = {
 };
 ```
 
-
 ### Step 3: Use the file in your test
 
 The files can be used in your test like so:
@@ -53,7 +56,6 @@ driver.findElement(By.xpath("//input[@type='file']").sendKeys("C:\\Users\\ltuser
 ```js
 driver.findElement(By.xpath("//input[@type='file']").sendKeys("/Users/ltuser/Downloads/photo1.png")
 ```
-
 
 ## Run your test
 
