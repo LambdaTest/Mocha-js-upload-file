@@ -7,16 +7,16 @@
 
 ## Getting Started
 
-TestMu AI (Formerly LambdaTest) is the world's first fully autonomous Agentic AI Quality Engineering Platform. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations.
+TestMu AI (Formerly TestMu AI (Formerly LambdaTest)) is the world's first fully autonomous Agentic AI Quality Engineering Platform. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations.
 
-If you want to upload a file to TestMu AI (Formerly LambdaTest) and use it in your Mocha.js automation test, you can follow the below steps. You can refer to sample test repo [here](https://github.com/LambdaTest/Mocha-selenium-sample).
+If you want to upload a file to TestMu AI (Formerly TestMu AI (Formerly LambdaTest)) and use it in your Mocha.js automation test, you can follow the below steps. You can refer to sample test repo [here](https://github.com/LambdaTest/Mocha-selenium-sample).
 
-- [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
+- [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly TestMu AI (Formerly LambdaTest)).
 - Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/) for the full setup walkthrough.
 
 # Steps:
 
-### Step 1: Upload the file to TestMu AI (Formerly LambdaTest) using API
+### Step 1: Upload the file to TestMu AI (Formerly TestMu AI (Formerly LambdaTest)) using API
 
 Use the file upload API to upload the file to the backend.
 
@@ -61,15 +61,15 @@ driver.findElement(By.xpath("//input[@type='file']").sendKeys("/Users/ltuser/Dow
 npm run single
 ```
 
-## TestMu AI (Formerly LambdaTest) Community
+## TestMu AI (Formerly TestMu AI (Formerly LambdaTest)) Community
 
 Connect with testers and developers in the [TestMu AI Community](https://community.testmuai.com/). Ask questions, share what you are building, and discuss best practices in test automation and DevOps.
 
-## TestMu AI (Formerly LambdaTest) Certifications
+## TestMu AI (Formerly TestMu AI (Formerly LambdaTest)) Certifications
 
 Earn free [TestMu AI Certifications](https://www.testmuai.com/certifications/) for testers, developers, and QA engineers. Validate your skills in Selenium, Cypress, Playwright, Appium, Espresso and more. Industry-recognized, shareable on LinkedIn, and built by practitioners, not marketers.
 
-## Learning Resources by TestMu AI (Formerly LambdaTest)
+## Learning Resources by TestMu AI (Formerly TestMu AI (Formerly LambdaTest))
 
 Learn modern testing through tutorials, guides, videos, and weekly updates:
 
